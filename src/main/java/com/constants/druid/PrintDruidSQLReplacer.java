@@ -14,8 +14,9 @@ public class PrintDruidSQLReplacer implements MethodReplacer {
      * 目标方法
      */
     private static final String CLASS_PATH = "com/alibaba/druid/pool/DruidPooledPreparedStatement";
+
     /**
-     * 目标方法
+     * 目标方法 REFERENCE
      */
     private static final String CLASS_REFERENCE = "com.alibaba.druid.pool.DruidPooledPreparedStatement";
 
